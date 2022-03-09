@@ -44,8 +44,14 @@
         createPlatform(200, 440, 0.6, 0.4)
         createPlatform(415, 440, 0.08, 6)
         createPlatform(470,600, 0.3, 0.4)
-        createPlatform(470, )
-        
+        createPlatform(470,490, 0.03, 3.8 )
+        createPlatform(580,490,0.03,3.8)
+        createPlatform(600, 535, 0.8)
+        createPlatform(200,340)
+        createPlatform(780,430,0.3)
+        createPlatform(5,270,0.4)
+        createPlatform(300,180,2)
+        createPlatform(500,30)
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     }
