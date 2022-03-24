@@ -7,8 +7,8 @@
 	<style>
 		.box {
 			width: 70px;
-			height: 70px;
-			background-color: teal;
+			height: 170px;
+			background-color: rgb(52, 226, 226);
 			font-size: 300%;
 			text-align: center;
 			display: block;
@@ -28,7 +28,8 @@
 	<div class="box">?</div>
 
 	<script>
-		(function(){
+		
+		
 			'use strict'
 			/* global jQuery */
 
@@ -51,6 +52,7 @@
 				box.css("left", newPositionX);
 			}
 
+			moveBoxTo(boardWith);
 			// changes the text displayed on the Box
 			function changeBoxText(newText) {
 				box.text(newText);
@@ -62,7 +64,7 @@
 			
 			// TODO 2 - Variable declarations 
 			
-
+			var location = 0
 			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -70,6 +72,8 @@
 			turn it around! 
 			*/
 			function update() {
+				moveBoxTo(location);
+				location = location + 10;
 				
 
 			};
@@ -80,7 +84,7 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				
+				console.log("Hey There")
 
 
 			};
